@@ -1,0 +1,76 @@
+table {
+	border: 1px solid #3b5998;
+	border-collapse: collapse;
+	width: 60%;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-right: 0;
+	border-left: 0;
+}
+thead {
+	color: white;
+	background-color: #1061cc;
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+}
+.discip {
+	vertical-align: top;
+	color: black; 
+	background-color: white;
+	padding-top: 20px;
+	width: 130px;
+}
+tbody{
+	font-size: 24px;
+}
+td {
+	border: 1px solid white;
+	padding-left: 50px;
+
+}
+#discEsp {
+	border-left: 0;
+}
+#aln01, #aln02, #aln03, #aln04, #web, #web02 {
+	background-color: #a6dbc9;
+}
+#aln05, #aln06, #aln07, #aln08, #aln09, #logProg, #logProg02 {
+	background-color: #f2bf29;
+}
+.med {
+	color: black;
+}
+.cabecalho {
+	height: 60px;
+}
+tbody td:hover {
+	background-color: black;
+	color: white;
+}
+thead td:hover {
+	color:  black;
+}
+#textPost {
+	position: relative;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	top: -400px;
+	background-color: #3b5998;
+	width:500px;
+}
+#textPost02 {
+	position: relative;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	top: -400px;
+	background-color: #3f8437;
+	width:500px;
+}
+h1 {
+	text-align: center;
+	font-size: 38px;
+}

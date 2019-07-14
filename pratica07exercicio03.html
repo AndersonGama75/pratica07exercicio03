@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Prática 07 - Exercício 02</title>
+		<link rel="stylesheet" href="pratica07exercicio03.css"/>
+	</head>
+	<body>
+		<script src="pratica07exercicio03.js"></script>
+		<h1>Clique sobre o nome do aluno e entenda a sua situação:</h1>
+		<table id="tab">
+			<thead>
+				<th>
+					<td id="discEsp" class="cabecalho">Disciplina</td>
+					<td class="cabecalho">Aluno</td>
+					<td class="cabecalho">P1</td>
+					<td class="cabecalho">P2</td>
+					<td class="cabecalho">Total</td>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="web" class="discip" rowspan="6" colspan="2">Web</td>					
+				</tr>
+				<tr id="aln01" onclick="resultado(id)">
+					<td>José da Silva</td>
+					<td type="number">30</td>
+					<td type="number">10</td>
+					<td type="number">40</td>
+				</tr>
+				<tr id="aln02" onclick="resultado(id)">
+					<td>Maria da Silva</td>
+					<td type="number">25</td>
+					<td type="number">7</td>
+					<td type="number">32</td>
+				</tr>
+				<tr id="aln03" onclick="resultado(id)">
+					<td type="text">Ronildo Graves</td>
+					<td type="number">12</td>
+					<td type="number">3</td>
+					<td type="number">15</td>
+				</tr>
+				<tr id="aln04" onclick="resultado(id)">
+					<td>Joselita Santos</td>
+					<td type="number">15</td>
+					<td type="number">8</td>
+					<td type="number">23</td>
+				</tr>
+				<tr>
+					<td id="web02" class="med" colspan="4">Média Web: 27,5</td>
+				</tr>
+				<tr>
+					<td id="logProg" class="discip" rowspan="7" colspan="2">Lógica de Programação</td>					
+				</tr>
+				<tr id="aln05" onclick="resultado(id)">
+					<td>José da Silva</td>
+					<td type="number">20</td>
+					<td type="number">9</td>
+					<td type="number">29</td>
+				</tr>
+				<tr id="aln06" onclick="resultado(id)">
+					<td>Maria da Silva</td>
+					<td colspan="2" type="number">32</td>
+					<td type="number">32</td>
+				</tr>
+				<tr id="aln07" onclick="resultado(id)">
+					<td>Ronildo Graves</td>
+					<td type="number">18</td>
+					<td type="number">5</td>
+					<td type="number">23</td>
+				</tr>
+				<tr id="aln08" onclick="resultado(id)">
+					<td>Ronildo Campos</td>
+					<td colspan="2" type="number">35</td>
+					<td type="number">35</td>
+				</tr>
+				<tr id="aln09" onclick="resultado(id)">
+					<td>Janaína Murtosa</td>
+					<td type="number">30</td>
+					<td type="number">10</td>
+					<td type="number">40</td>
+				</tr>
+				<tr>
+					<td id="logProg02" class="med" colspan="4">Média Lógica de Programação: 31,8</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="textPost"></div>
+		<div id="textPost02"></div>
+	</body>
+</html>
